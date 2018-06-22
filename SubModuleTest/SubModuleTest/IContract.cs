@@ -9,5 +9,7 @@ namespace SubModuleTest
     public interface IContract
     {
         int ContractNumber();
+
+        string ContractName();
     }
 }
